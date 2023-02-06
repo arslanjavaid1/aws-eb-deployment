@@ -1,7 +1,7 @@
 # Aws eb cli action
 
-![Run tests](https://github.com/arslanjavai1/actions-aws-eb/workflows/Run%20tests/badge.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/arslanjavaid1/actions-aws-eb/blob/master/LICENCE)
+![Run tests](https://github.com/arslanjavai1/aws-eb-deployment/workflows/Run%20tests/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/arslanjavaid1/aws-eb-deployment/blob/master/LICENCE)
 
 This action run [eb cli](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html)
 
@@ -14,7 +14,7 @@ This action run [eb cli](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/
 ## Example usage
 
 ```YAML
-uses: arslanjavaid1/aws-eb@v1.0.0
+uses: arslanjavaid1/aws-eb-deployment@v1.0.0
 with:
   command: 'deploy ${{ secrets.ENVIRONMENT_NAME }}'
 env:
