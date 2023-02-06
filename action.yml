@@ -1,9 +1,9 @@
 # action.yml
-name: 'AWS Elastic Beanstalk cli'
+name: 'AWS Elastic Beanstalk cli deployment for github actions'
 
 author: Arslan Javaid
 
-description: 'Provide eb cli commands'
+description: 'Provide eb cli commands for github actions'
 
 branding:
   icon: 'terminal'  
